@@ -1,0 +1,72 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #444444;
+    font-size: 16px;
+}
+header {
+    margin: 1%;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00CDCD;
+    color: #fff;
+    padding: 2%;
+    width: 125%;
+    height: 125%;
+}
+.container {
+    padding: 2%;
+}
+.gifs-display {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#buttons-view {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 1%;
+    background-color: #388E8E;
+    color: #fff;
+    font-size: 16px;
+    margin: 1%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    -webkit-transition: width .5s, height 1s; /* Safari */
+    transition: width .5s, height 1s;
+}
+#form-container, #message {
+    margin: 2% 2%;
+    text-align: center;
+}
+#topic-input {
+    width: 60%;
+    font-size: 16px;
+    height: 1.2em;
+}
+
+#add-topic {
+    color: #fff;
+    margin-left: 1%;
+    padding: 1%;
+    font-size: 16px;
+    background:#388E8E;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif; 
+    
+}
